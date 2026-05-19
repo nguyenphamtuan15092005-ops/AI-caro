@@ -89,4 +89,4 @@ Ket qua duoc luu trong `game_data_results/`:
 
 - `game_data_raw.csv`: tung van dau
 - `game_data_summary.csv`: bang tong hop theo thuat toan, depth, nguoi di truoc
-- `game_data_report.txt`: goi y viet phan nhan xet bao cao
+- `game_data_report.txt`: nhan xet bao cao
