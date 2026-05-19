@@ -42,7 +42,7 @@ Bang tom tat:
 - minimax depth 5 first=ai: first-player win 7/10 (70.0%), X win 3, O win 7, draw 0, avg nodes/move 291.8, avg time/move 0.0689s
 - minimax depth 5 first=human: first-player win 7/10 (70.0%), X win 7, O win 3, draw 0, avg nodes/move 291.8, avg time/move 0.0792s
 
-Goi y viet bao cao:
+Viet bao cao:
 - Dung first_player_win_rate de nhan xet loi the cua ben di truoc.
 - Dung avg_nodes_per_move va avg_search_time_s de nhan xet chi phi tim kiem.
 - So sanh Minimax, Alpha-Beta va Advanced tai cung depth vi ca ba dung chung evaluate.
