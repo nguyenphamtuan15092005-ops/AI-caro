@@ -23,6 +23,7 @@ CaroAI_Project/
 |   |-- gui_pygame.py
 |   `-- main.py
 |-- requirements.txt
+|-- benchmark_results.csv
 `-- README.md
 ```
 
