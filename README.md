@@ -1,4 +1,4 @@
-# CARO AI PROJECT
+# 23021351 23021338 23021346 CARO AI PROJECT
 
 Tro choi Caro 9x9 giua nguoi choi va may. Dieu kien thang la 4 quan lien tiep theo hang ngang, hang doc hoac duong cheo, khong xet luat chan hai dau.
 
