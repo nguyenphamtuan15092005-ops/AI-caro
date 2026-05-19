@@ -5,7 +5,7 @@ Thiet ke thi nghiem:
 - Moi depth: AI di truoc 10 van, HUMAN di truoc 10 van.
 - Tong moi thuat toan: 5 * 2 * 10 = 100 van.
 - Neu chay ca 3 mode thi tong la 300 van: Minimax, Alpha-Beta, Advanced.
-- Day la self-play: X va O deu la search agent cung thuat toan, cung depth, cung evaluate.
+- Day la self-play: X(Human) va O (search agent) cung thuat toan, cung depth, cung evaluate.
 - Moi game_index dung mot opening seed khac nhau, nhung cac thuat toan dung cung seed de so sanh cong bang.
 - Candidate cap khi thu nghiem: 3.
 - Gioi han so nuoc moi van: 60.
