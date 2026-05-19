@@ -1,0 +1,51 @@
+CARO AI GAME DATA REPORT
+
+Thiet ke thi nghiem:
+- Depth: [1, 2, 3, 4, 5]
+- Moi depth: AI di truoc 10 van, HUMAN di truoc 10 van.
+- Tong moi thuat toan: 5 * 2 * 10 = 100 van.
+- Neu chay ca 3 mode thi tong la 300 van: Minimax, Alpha-Beta, Advanced.
+- Day la self-play: X va O deu la search agent cung thuat toan, cung depth, cung evaluate.
+- Moi game_index dung mot opening seed khac nhau, nhung cac thuat toan dung cung seed de so sanh cong bang.
+- Candidate cap khi thu nghiem: 3.
+- Gioi han so nuoc moi van: 60.
+
+Bang tom tat:
+- advanced depth 1 first=ai: first-player win 5/10 (50.0%), X win 5, O win 5, draw 0, avg nodes/move 1.8, avg time/move 0.0081s
+- advanced depth 1 first=human: first-player win 5/10 (50.0%), X win 5, O win 5, draw 0, avg nodes/move 1.8, avg time/move 0.0084s
+- advanced depth 2 first=ai: first-player win 10/10 (100.0%), X win 0, O win 10, draw 0, avg nodes/move 6.0, avg time/move 0.0726s
+- advanced depth 2 first=human: first-player win 10/10 (100.0%), X win 10, O win 0, draw 0, avg nodes/move 6.0, avg time/move 0.0437s
+- advanced depth 3 first=ai: first-player win 10/10 (100.0%), X win 0, O win 10, draw 0, avg nodes/move 14.4, avg time/move 0.0392s
+- advanced depth 3 first=human: first-player win 10/10 (100.0%), X win 10, O win 0, draw 0, avg nodes/move 14.4, avg time/move 0.0597s
+- advanced depth 4 first=ai: first-player win 10/10 (100.0%), X win 0, O win 10, draw 0, avg nodes/move 30.5, avg time/move 0.1353s
+- advanced depth 4 first=human: first-player win 10/10 (100.0%), X win 10, O win 0, draw 0, avg nodes/move 30.5, avg time/move 0.2567s
+- advanced depth 5 first=ai: first-player win 10/10 (100.0%), X win 0, O win 10, draw 0, avg nodes/move 60.3, avg time/move 0.3346s
+- advanced depth 5 first=human: first-player win 10/10 (100.0%), X win 10, O win 0, draw 0, avg nodes/move 60.3, avg time/move 0.2797s
+- alphabeta depth 1 first=ai: first-player win 8/10 (80.0%), X win 2, O win 8, draw 0, avg nodes/move 2.8, avg time/move 0.0009s
+- alphabeta depth 1 first=human: first-player win 8/10 (80.0%), X win 8, O win 2, draw 0, avg nodes/move 2.8, avg time/move 0.0007s
+- alphabeta depth 2 first=ai: first-player win 8/10 (80.0%), X win 2, O win 8, draw 0, avg nodes/move 9.7, avg time/move 0.0032s
+- alphabeta depth 2 first=human: first-player win 8/10 (80.0%), X win 8, O win 2, draw 0, avg nodes/move 9.7, avg time/move 0.0031s
+- alphabeta depth 3 first=ai: first-player win 7/10 (70.0%), X win 3, O win 7, draw 0, avg nodes/move 25.7, avg time/move 0.0057s
+- alphabeta depth 3 first=human: first-player win 7/10 (70.0%), X win 7, O win 3, draw 0, avg nodes/move 25.7, avg time/move 0.0059s
+- alphabeta depth 4 first=ai: first-player win 7/10 (70.0%), X win 3, O win 7, draw 0, avg nodes/move 61.4, avg time/move 0.0157s
+- alphabeta depth 4 first=human: first-player win 7/10 (70.0%), X win 7, O win 3, draw 0, avg nodes/move 61.4, avg time/move 0.0149s
+- alphabeta depth 5 first=ai: first-player win 7/10 (70.0%), X win 3, O win 7, draw 0, avg nodes/move 132.1, avg time/move 0.0502s
+- alphabeta depth 5 first=human: first-player win 7/10 (70.0%), X win 7, O win 3, draw 0, avg nodes/move 132.1, avg time/move 0.0494s
+- minimax depth 1 first=ai: first-player win 8/10 (80.0%), X win 2, O win 8, draw 0, avg nodes/move 2.8, avg time/move 0.0006s
+- minimax depth 1 first=human: first-player win 8/10 (80.0%), X win 8, O win 2, draw 0, avg nodes/move 2.8, avg time/move 0.0008s
+- minimax depth 2 first=ai: first-player win 8/10 (80.0%), X win 2, O win 8, draw 0, avg nodes/move 11.2, avg time/move 0.0029s
+- minimax depth 2 first=human: first-player win 8/10 (80.0%), X win 8, O win 2, draw 0, avg nodes/move 11.2, avg time/move 0.0031s
+- minimax depth 3 first=ai: first-player win 7/10 (70.0%), X win 3, O win 7, draw 0, avg nodes/move 34.4, avg time/move 0.0075s
+- minimax depth 3 first=human: first-player win 7/10 (70.0%), X win 7, O win 3, draw 0, avg nodes/move 34.4, avg time/move 0.0086s
+- minimax depth 4 first=ai: first-player win 7/10 (70.0%), X win 3, O win 7, draw 0, avg nodes/move 101.4, avg time/move 0.0244s
+- minimax depth 4 first=human: first-player win 7/10 (70.0%), X win 7, O win 3, draw 0, avg nodes/move 101.4, avg time/move 0.0277s
+- minimax depth 5 first=ai: first-player win 7/10 (70.0%), X win 3, O win 7, draw 0, avg nodes/move 291.8, avg time/move 0.0689s
+- minimax depth 5 first=human: first-player win 7/10 (70.0%), X win 7, O win 3, draw 0, avg nodes/move 291.8, avg time/move 0.0792s
+
+Goi y viet bao cao:
+- Dung first_player_win_rate de nhan xet loi the cua ben di truoc.
+- Dung avg_nodes_per_move va avg_search_time_s de nhan xet chi phi tim kiem.
+- So sanh Minimax, Alpha-Beta va Advanced tai cung depth vi ca ba dung chung evaluate.
+- Alpha-Beta thuong giam thoi gian va node nho cat nhanh beta <= alpha.
+- Advanced them move ordering, bat thang/chan thang ngay va cache nen co the manh/nhanh hon trong mot so trang thai.
+- Ket qua co tinh thuc nghiem vi day la AI self-play, khong phai nguoi that.

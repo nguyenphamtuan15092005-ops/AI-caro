@@ -1,0 +1,85 @@
+benchmark_type,case,depth,mode,first_player,move,value,nodes,cutoffs,cache_hits,time_s,same_move_as_minimax,node_reduction_vs_minimax_%,time_reduction_vs_minimax_%,games,x_wins,o_wins,draws,first_player_wins,first_player_win_rate,avg_move_count,avg_nodes_per_move,avg_search_time_s,avg_total_cutoffs,avg_total_cache_hits,note
+fixed_position,opening,1,minimax,,"(3, 4)",2040,10,0,0,0.001856,True,0.00,0.00,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,opening,1,alphabeta,,"(3, 4)",2040,10,0,0,0.002751,True,0.00,-48.22,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,opening,1,advanced,,"(3, 4)",2040,10,0,0,0.007355,True,0.00,-296.27,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,opening,2,minimax,,"(3, 4)",0,138,0,0,0.031157,True,0.00,0.00,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,opening,2,alphabeta,,"(3, 4)",0,33,9,0,0.009134,True,76.09,70.68,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,opening,2,advanced,,"(3, 4)",0,33,9,0,0.048125,True,76.09,-54.46,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,opening,3,minimax,,"(3, 4)",12020,2098,0,0,0.534778,True,0.00,0.00,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,opening,3,alphabeta,,"(3, 4)",12020,529,36,0,0.157558,True,74.79,70.54,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,opening,3,advanced,,"(3, 4)",12020,196,20,0,0.177355,True,90.66,66.84,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,middle_game,1,minimax,,"(5, 3)",68440,22,0,0,0.010320,True,0.00,0.00,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,middle_game,1,alphabeta,,"(5, 3)",68440,22,0,0,0.009373,True,0.00,9.18,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,middle_game,1,advanced,,"(5, 3)",68440,0,0,0,0.013904,True,100.00,-34.73,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,middle_game,2,minimax,,"(4, 3)",-9999998,538,0,0,0.263845,True,0.00,0.00,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,middle_game,2,alphabeta,,"(4, 3)",-9999998,149,21,0,0.098001,True,72.30,62.86,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,middle_game,2,advanced,,"(5, 3)",68440,0,0,0,0.032802,False,100.00,87.57,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,middle_game,3,minimax,,"(4, 3)",-9999998,11984,0,0,6.397887,True,0.00,0.00,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,middle_game,3,alphabeta,,"(4, 3)",-9999998,1446,87,0,0.792431,True,87.93,87.61,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,middle_game,3,advanced,,"(5, 3)",68440,0,0,0,0.016369,False,100.00,99.74,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,ai_can_win,1,minimax,,"(4, 6)",9999999,14,0,0,0.005491,True,0.00,0.00,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,ai_can_win,1,alphabeta,,"(4, 6)",9999999,14,0,0,0.004440,True,0.00,19.15,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,ai_can_win,1,advanced,,"(4, 6)",10000000,0,0,0,0.005036,True,100.00,8.29,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,ai_can_win,2,minimax,,"(4, 6)",9999999,212,0,0,0.063387,True,0.00,0.00,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,ai_can_win,2,alphabeta,,"(4, 6)",9999999,52,11,0,0.011034,True,75.47,82.59,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,ai_can_win,2,advanced,,"(4, 6)",10000000,0,0,0,0.003280,True,100.00,94.82,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,ai_can_win,3,minimax,,"(4, 6)",9999999,3932,0,0,1.072016,True,0.00,0.00,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,ai_can_win,3,alphabeta,,"(4, 6)",9999999,288,26,0,0.066673,True,92.68,93.78,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,ai_can_win,3,advanced,,"(4, 6)",10000000,0,0,0,0.003461,True,100.00,99.68,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,human_must_be_blocked,1,minimax,,"(5, 4)",68080,24,0,0,0.005787,True,0.00,0.00,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,human_must_be_blocked,1,alphabeta,,"(5, 4)",68080,24,0,0,0.007474,True,0.00,-29.17,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,human_must_be_blocked,1,advanced,,"(5, 5)",2100,0,0,0,0.008615,False,100.00,-48.87,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,human_must_be_blocked,2,minimax,,"(5, 5)",-1900,600,0,0,0.207753,True,0.00,0.00,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,human_must_be_blocked,2,alphabeta,,"(5, 5)",-1900,147,22,0,0.044047,True,75.50,78.80,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,human_must_be_blocked,2,advanced,,"(5, 5)",2100,0,0,0,0.012218,True,100.00,94.12,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,human_must_be_blocked,3,minimax,,"(5, 5)",10140,13847,0,0,5.968267,True,0.00,0.00,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,human_must_be_blocked,3,alphabeta,,"(5, 5)",10140,1769,168,0,0.567710,True,87.22,90.49,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,human_must_be_blocked,3,advanced,,"(5, 5)",2100,0,0,0,0.011182,True,100.00,99.81,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,both_attack,1,minimax,,"(4, 4)",9999999,21,0,0,0.004766,True,0.00,0.00,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,both_attack,1,alphabeta,,"(4, 4)",9999999,21,0,0,0.006719,True,0.00,-40.97,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,both_attack,1,advanced,,"(4, 4)",10000000,0,0,0,0.006165,True,100.00,-29.35,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,both_attack,2,minimax,,"(4, 4)",9999999,478,0,0,0.178420,True,0.00,0.00,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,both_attack,2,alphabeta,,"(4, 4)",9999999,41,20,0,0.019965,True,91.42,88.81,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,both_attack,2,advanced,,"(4, 4)",10000000,0,0,0,0.013728,True,100.00,92.31,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,both_attack,3,minimax,,"(4, 4)",9999999,11265,0,0,4.467233,True,0.00,0.00,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,both_attack,3,alphabeta,,"(4, 4)",9999999,483,20,0,0.198037,True,95.71,95.57,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,both_attack,3,advanced,,"(4, 4)",10000000,0,0,0,0.007015,True,100.00,99.84,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,many_branches,1,minimax,,"(5, 4)",80380,24,0,0,0.010970,True,0.00,0.00,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,many_branches,1,alphabeta,,"(5, 4)",80380,24,0,0,0.010519,True,0.00,4.12,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,many_branches,1,advanced,,"(5, 4)",80380,24,0,0,0.067343,True,0.00,-513.86,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,many_branches,2,minimax,,"(5, 4)",360,600,0,0,0.242732,True,0.00,0.00,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,many_branches,2,alphabeta,,"(5, 4)",360,166,22,0,0.083317,True,72.33,65.68,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,many_branches,2,advanced,,"(5, 4)",360,124,21,0,0.838644,True,79.33,-245.50,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,many_branches,3,minimax,,"(5, 4)",92320,14424,0,0,6.652266,True,0.00,0.00,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,many_branches,3,alphabeta,,"(5, 4)",92320,1389,67,0,0.529552,True,90.37,92.04,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+fixed_position,many_branches,3,advanced,,"(2, 7)",9999997,798,69,0,2.257468,False,94.47,66.06,,,,,,,,,,,,6 trang thai co dinh trong benchmark.py
+self_play_300_games,game_data_results,1,advanced,ai,,,15.0,0.0,0.0,0.07102529993280768,,37.43,-1206.73,10,5,5,0,5,0.5,8.5,1.757142857142857,0.008122067134162145,0.0,0.0,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
+self_play_300_games,game_data_results,1,advanced,human,,,15.0,0.0,0.0,0.07408309996826574,,37.43,-1002.32,10,5,5,0,5,0.5,8.5,1.757142857142857,0.008405377568810114,0.0,0.0,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
+self_play_300_games,game_data_results,2,advanced,ai,,,67.8,13.1,0.0,0.8247914699371904,,46.78,-2387.63,10,0,10,0,10,1.0,11.4,5.964848484848485,0.07259850963075279,13.1,0.0,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
+self_play_300_games,game_data_results,2,advanced,human,,,67.8,13.1,0.0,0.4971013500238769,,46.78,-1312.12,10,10,0,0,10,1.0,11.4,5.964848484848485,0.043684954244262456,13.1,0.0,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
+self_play_300_games,game_data_results,3,advanced,ai,,,151.8,28.5,0.0,0.4184978799778037,,58.25,-423.36,10,0,10,0,10,1.0,10.6,14.357575757575756,0.03919284100787752,28.5,0.0,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
+self_play_300_games,game_data_results,3,advanced,human,,,151.8,28.5,0.0,0.6457590599777177,,58.25,-593.28,10,10,0,0,10,1.0,10.6,14.357575757575756,0.05973745373529241,28.5,0.0,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
+self_play_300_games,game_data_results,4,advanced,ai,,,361.1,97.9,1.6,1.6551746699726209,,69.96,-454.77,10,0,10,0,10,1.0,11.8,30.45919191919192,0.13527639642282568,97.9,1.6,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
+self_play_300_games,game_data_results,4,advanced,human,,,361.1,97.9,1.6,3.190616430051159,,69.96,-827.89,10,10,0,0,10,1.0,11.8,30.45919191919192,0.25666988414601716,97.9,1.6,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
+self_play_300_games,game_data_results,5,advanced,ai,,,801.7,206.4,5.6,4.585230239981319,,79.35,-385.72,10,0,10,0,10,1.0,13.2,60.264444444444436,0.3345570631110523,206.4,5.6,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
+self_play_300_games,game_data_results,5,advanced,human,,,801.7,206.4,5.6,3.8887620200403035,,79.35,-253.15,10,10,0,0,10,1.0,13.2,60.264444444444436,0.279699601335451,206.4,5.6,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
+self_play_300_games,game_data_results,1,alphabeta,ai,,,44.4,0.0,0.0,0.01371127002639696,,0.00,-38.02,10,2,8,0,8,0.8,15.8,2.808239603533721,0.0008578598094933995,0.0,0.0,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
+self_play_300_games,game_data_results,1,alphabeta,human,,,44.4,0.0,0.0,0.011637799884192645,,0.00,3.90,10,8,2,0,8,0.8,15.8,2.808239603533721,0.0007327982530290875,0.0,0.0,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
+self_play_300_games,game_data_results,2,alphabeta,ai,,,218.6,24.7,0.0,0.07559719993732869,,13.39,-8.17,10,2,8,0,8,0.8,22.4,9.706196694019068,0.0031566839766874314,24.7,0.0,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
+self_play_300_games,game_data_results,2,alphabeta,human,,,218.6,24.7,0.0,0.07454132004640997,,13.39,-0.08,10,8,2,0,8,0.8,22.4,9.706196694019068,0.003096094305342438,24.7,0.0,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
+self_play_300_games,game_data_results,3,alphabeta,ai,,,433.6,55.0,0.0,0.09958805001806467,,25.21,23.64,10,3,7,0,7,0.7,16.7,25.722845291962937,0.005718635742166685,55.0,0.0,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
+self_play_300_games,game_data_results,3,alphabeta,human,,,433.6,55.0,0.0,0.10324798006331548,,25.21,31.60,10,7,3,0,7,0.7,16.7,25.722845291962937,0.005894093973121595,55.0,0.0,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
+self_play_300_games,game_data_results,4,alphabeta,ai,,,1175.6,226.2,0.0,0.3117764200083911,,39.47,35.47,10,3,7,0,7,0.7,18.9,61.36978079071919,0.015735001516555866,226.2,0.0,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
+self_play_300_games,game_data_results,4,alphabeta,human,,,1175.6,226.2,0.0,0.29893391005462033,,39.47,46.00,10,7,3,0,7,0.7,18.9,61.36978079071919,0.014937412784719226,226.2,0.0,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
+self_play_300_games,game_data_results,5,alphabeta,ai,,,2377.8,476.2,0.0,0.9220504999975674,,54.74,27.14,10,3,7,0,7,0.7,18.1,132.08082409775506,0.05018167252184188,476.2,0.0,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
+self_play_300_games,game_data_results,5,alphabeta,human,,,2377.8,476.2,0.0,0.89859877997078,,54.74,37.59,10,7,3,0,7,0.7,18.1,132.08082409775506,0.0494272201396207,476.2,0.0,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
+self_play_300_games,game_data_results,1,minimax,ai,,,44.4,0.0,0.0,0.009932210121769458,,0.00,0.00,10,2,8,0,8,0.8,15.8,2.808239603533721,0.0006215575675068755,0.0,0.0,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
+self_play_300_games,game_data_results,1,minimax,human,,,44.4,0.0,0.0,0.012123950012028217,,0.00,0.00,10,8,2,0,8,0.8,15.8,2.808239603533721,0.0007625136400103649,0.0,0.0,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
+self_play_300_games,game_data_results,2,minimax,ai,,,252.6,0.0,0.0,0.06944965003058315,,0.00,0.00,10,2,8,0,8,0.8,22.4,11.207058791798087,0.0029183861874521847,0.0,0.0,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
+self_play_300_games,game_data_results,2,minimax,human,,,252.6,0.0,0.0,0.07354775986168534,,0.00,0.00,10,8,2,0,8,0.8,22.4,11.207058791798087,0.003093564927214778,0.0,0.0,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
+self_play_300_games,game_data_results,3,minimax,ai,,,577.2,0.0,0.0,0.12919584000483156,,0.00,0.00,10,3,7,0,7,0.7,16.7,34.39258888170653,0.007488697422877289,0.0,0.0,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
+self_play_300_games,game_data_results,3,minimax,human,,,577.2,0.0,0.0,0.1476451099733822,,0.00,0.00,10,7,3,0,7,0.7,16.7,34.39258888170653,0.008616641376921213,0.0,0.0,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
+self_play_300_games,game_data_results,4,minimax,ai,,,1929.0,0.0,0.0,0.48628144004615026,,0.00,0.00,10,3,7,0,7,0.7,18.9,101.39510355503363,0.024384179517118774,0.0,0.0,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
+self_play_300_games,game_data_results,4,minimax,human,,,1929.0,0.0,0.0,0.5300725100212731,,0.00,0.00,10,7,3,0,7,0.7,18.9,101.39510355503363,0.02766177069132762,0.0,0.0,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
+self_play_300_games,game_data_results,5,minimax,ai,,,5281.2,0.0,0.0,1.262896550016012,,0.00,0.00,10,3,7,0,7,0.7,18.1,291.84056265984657,0.06887833721557027,0.0,0.0,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
+self_play_300_games,game_data_results,5,minimax,human,,,5281.2,0.0,0.0,1.449051959917415,,0.00,0.00,10,7,3,0,7,0.7,18.1,291.84056265984657,0.07920085592114721,0.0,0.0,"Tong hop tu gui_game_data.py, self-play 300 van, candidate cap = 3"
