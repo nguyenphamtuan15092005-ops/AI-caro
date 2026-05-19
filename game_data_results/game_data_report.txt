@@ -48,4 +48,3 @@ Viet bao cao:
 - So sanh Minimax, Alpha-Beta va Advanced tai cung depth vi ca ba dung chung evaluate.
 - Alpha-Beta thuong giam thoi gian va node nho cat nhanh beta <= alpha.
 - Advanced them move ordering, bat thang/chan thang ngay va cache nen co the manh/nhanh hon trong mot so trang thai.
-- Ket qua co tinh thuc nghiem vi day la AI self-play, khong phai nguoi that.
